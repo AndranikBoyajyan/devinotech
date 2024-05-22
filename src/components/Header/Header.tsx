@@ -1,7 +1,14 @@
+import NavBar from "./NavBar";
+import Title from "./Title";
+import './Header.css'
+
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <div className="header">
+      <Title />
+      <NavBar />
+    </div>
+  );
+};
 
-export default Header
+export default Header;

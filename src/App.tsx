@@ -1,9 +1,15 @@
-import HomePage from "./pages/HomePage"
+import "./App.css";
+import FooterContainer from "./containers/FooterContainer";
+import HeaderContainer from "./containers/HeaderContainer";
 
-const App = () => {
+function App() {
   return (
-    <div><HomePage /></div>
-  )
+    <>
+      <HeaderContainer />
+      <FooterContainer />
+    </>
+  );
 }
 
-export default App
+export default App;
+
