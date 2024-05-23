@@ -1,3 +1,10 @@
-.navBar {
+.ul {
+    width: 491px;
+    list-style: none;
     display: flex;
+    justify-content: space-between;
+}
+
+.ul li {
+    color: #212C31;
 }
