@@ -1,5 +1,5 @@
 @font-face{
-    font-family: "RubikScribble";
-    src:local("RubikScribble-Regular"),
-    url('./assets/fonts/Rubik_Scribble/RubikScribble-Regular.ttf') 
+    font-family: "Ubuntu";
+    src:local("Ubuntu-Regular"),
+    url('../fonts/Ubuntu/Ubuntu-Regular.ttf') 
   }
