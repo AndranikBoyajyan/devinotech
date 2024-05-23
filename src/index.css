@@ -34,3 +34,13 @@ h1 {
     background-color: #f9f9f9;
   }
 }
+
+  @font-face{
+    font-family: "Ubuntu";
+    src:local("Ubuntu-Regular"),
+    url('../fonts/Ubuntu/Ubuntu-Regular.ttf')
+   }
+
+  .font-face-ub {
+    font-family: "Ubuntu";
+  }
