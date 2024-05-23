@@ -5,6 +5,7 @@
     justify-content: space-between;
 }
 
-.ul li {
+a {
     color: #212C31;
+    text-decoration: none;
 }
