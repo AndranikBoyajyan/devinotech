@@ -67,6 +67,7 @@ button:focus-visible {
   }
 }
 @font-face{
-  font-family: "Ubuntu";
-  src:local("Ubuntu-Regular"),
-  url('../fonts/Ubuntu/Ubuntu-Regular.ttf') }
+    font-family: "Ubuntu";
+    src:local("Ubuntu-Regular"),
+    url('../fonts/Ubuntu/Ubuntu-Regular.ttf') 
+  }
