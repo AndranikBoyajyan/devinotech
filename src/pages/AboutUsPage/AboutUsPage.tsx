@@ -1,7 +1,11 @@
+import DescriptionContainer from "../../containers/AboutUsContainer/DescriptionContainer";
+
 const AboutUsPage = () => {
   return (
-    <div>AboutUsPage</div>
-  )
-}
+    <div>
+      <DescriptionContainer />
+    </div>
+  );
+};
 
-export default AboutUsPage
+export default AboutUsPage;

@@ -7,7 +7,7 @@ const Title = () => {
     navigate('/')
   }
   return <div className='title' onClick={handleOnClick} >
-    <h2 className="h2">DEVINNOTECH </h2>
+    <h2 className="titleText">DEVINNOTECH </h2>
   </div>;
 };
 
