@@ -2,5 +2,7 @@
     font-family: "Ubuntu";
     src:local("Ubuntu-Regular"),
     url('../fonts/Ubuntu/Ubuntu-Regular.ttf') 
-  
+}
+body {
+    background-color: #F6FAFE;
 }
