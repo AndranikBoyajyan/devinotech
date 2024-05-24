@@ -1,9 +1,9 @@
-import Footer from "../../components/Footer";
+// import Footer from "../../components/Footer";
 
 const FooterContainer = () => {
   return (
     <div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
