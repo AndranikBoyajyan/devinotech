@@ -1,7 +1,12 @@
+import { useNavigate } from 'react-router';
 import './Title.css'
 
 const Title = () => {
-  return <div className='title'>
+  const navigate = useNavigate()
+  const handleOnClick = () => {
+    navigate('/')
+  }
+  return <div className='title' onClick={handleOnClick} >
     <h2 className="h2">DEVINNOTECH </h2>
   </div>;
 };
