@@ -4,10 +4,11 @@ import AchievmentsContainer from "../../containers/HomePageContainer/Achievments
 import AboutUsContainer from "../../containers/HomePageContainer/AboutUsContainer";
 import HomePageHeader from "../../containers/HomePageContainer/HomePageHeader";
 import NewsContainer from "../../containers/HomePageContainer/NewsContainer";
+import PartnersContainer from "../../containers/HomePageContainer/PartnersContainer";
 
 const HomePage = () => {
   return (
-    <div style={{display: 'flex', flexDirection: 'column', gap: '4vh'}}>
+    <div style={{ display: "flex", flexDirection: "column", gap: "4vh" }}>
       <HomePageHeader />
       <img
         style={{
@@ -23,6 +24,7 @@ const HomePage = () => {
       <AchievmentsContainer />
       <AboutUsContainer />
       <NewsContainer />
+      <PartnersContainer />
     </div>
   );
 };
