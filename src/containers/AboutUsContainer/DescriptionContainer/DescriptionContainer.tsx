@@ -6,7 +6,6 @@ const DescriptionContainer = () => {
   return (
     <div className="descriptionContainer">
       <Description />
-      <div className="dotes"></div>
       <Skills />
     </div>
   );

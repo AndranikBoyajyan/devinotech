@@ -1,13 +1,15 @@
+import Advantages from "../Advantages";
 import "./MainStrategicDirections.css";
 
 const MainStrategicDirections = () => {
   return (
     <div className="mainStrategicDirections">
-      <h2 className="missionTitle">Mission</h2>
-      <span className="missionText">
-        Promote community development by developing the skills and employment of
-        young women and men.
-      </span>
+      <h2 className="mainStrategicDirectionsTitle">Main Strategic Directions</h2>
+      <div className="advantages">
+        <Advantages text="Fairness" />
+        <Advantages text="Transparency" />
+        <Advantages text="Creativity" />
+      </div>
     </div>
   );
 };

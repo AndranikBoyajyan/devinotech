@@ -1,6 +1,32 @@
 .mainStrategicDirections {
-    width: 264px;
     height: 284px;
     display: flex;
     flex-direction: column;
+}
+
+.mainStrategicDirectionsTitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 72px;
+    color: #26AAD5;
+    letter-spacing: -2%;
+}
+
+.selectIcon {
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectIconWrap {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #D1FADF;
 }

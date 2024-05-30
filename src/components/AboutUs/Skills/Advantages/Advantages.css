@@ -1,0 +1,13 @@
+.advantage {
+    display: flex;
+    align-items: center;
+}
+
+.advantageText { 
+    color: #667085;
+    margin: 0;
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
