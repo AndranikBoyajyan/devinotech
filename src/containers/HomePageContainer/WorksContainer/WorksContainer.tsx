@@ -1,4 +1,10 @@
+import { useNavigate } from "react-router";
+
 const WorksContainer = () => {
+  const navigate = useNavigate();
+  const handleOnClick = () => {
+    navigate("/programs");
+  };
   return (
     <div
       style={{
@@ -22,11 +28,13 @@ const WorksContainer = () => {
           future-proof brand identity.
         </h3>
         <div
+          onClick={handleOnClick}
           style={{
             display: "flex",
             margin: "30px 0px",
             alignItems: "center",
             gap: "5px",
+            cursor: "pointer",
           }}
         >
           <button
@@ -37,6 +45,7 @@ const WorksContainer = () => {
               alignSelf: "baseline",
               color: "#55D8F4",
               border: "none",
+              cursor: "pointer",
             }}
           >
             {">"}
