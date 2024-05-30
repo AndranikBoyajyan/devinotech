@@ -1,7 +1,12 @@
 import { Button } from "@mui/material";
 import NewsCard from "../../../components/NewsCard";
+import { useNavigate } from "react-router";
 
 const NewsContainer = () => {
+  const navigate = useNavigate()
+  const handleOnClick = () => {
+    navigate('/news')
+  }
   return (
     <div
       style={{
@@ -20,6 +25,7 @@ const NewsContainer = () => {
       <Button
           variant="text"
           color="inherit"
+          onClick={handleOnClick}
           sx={{
             textTransform: "none",
             border: "1px solid black",

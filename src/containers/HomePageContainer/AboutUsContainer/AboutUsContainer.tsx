@@ -1,6 +1,11 @@
+import { useNavigate } from "react-router";
 import image_src from "../../../../public/images/jpegs/b48a85a235d71156b381ddf6fb746ed1.jpeg";
 
 const AboutUsContainer = () => {
+  const navigate = useNavigate();
+  const handleOnClick = () => {
+    navigate("/aboutus");
+  };
   return (
     <div
       style={{
@@ -53,11 +58,12 @@ const AboutUsContainer = () => {
         </div>
       </div>
       <div
+        onClick={handleOnClick}
         style={{
           display: "flex",
-          // margin: "30px 0px",
           alignItems: "center",
           gap: "5px",
+          cursor: "pointer",
         }}
       >
         <button
@@ -68,11 +74,14 @@ const AboutUsContainer = () => {
             alignSelf: "baseline",
             color: "#55D8F4",
             border: "none",
+            cursor: "pointer",
           }}
         >
           {">"}
         </button>
-        <div style={{ padding: "auto", alignItems: "center" }}>LAST WORKS</div>
+        <div style={{ padding: "auto", alignItems: "center", color: "white" }}>
+          ABOUT US
+        </div>
       </div>
     </div>
   );
