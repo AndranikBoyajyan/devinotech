@@ -1,4 +1,4 @@
-import src from "../../../../public/images/jpegs/1376ebe845ff7216b946b6b3262ae5ca.jpeg";
+import src from "../../../../../public/images/jpegs/1376ebe845ff7216b946b6b3262ae5ca.jpeg";
 import './TeamImage.css'
 
 const TeamImage = () => {
