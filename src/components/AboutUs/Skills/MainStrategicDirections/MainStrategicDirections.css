@@ -1,0 +1,6 @@
+.mainStrategicDirections {
+    width: 264px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+}

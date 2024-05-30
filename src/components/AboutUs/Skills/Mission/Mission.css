@@ -1,0 +1,22 @@
+.mission {
+    width: 353px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+}
+
+.missionTitle {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 72px;
+    color: #26AAD5;
+    letter-spacing: -2%;
+}
+
+.missionText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #667085;
+}

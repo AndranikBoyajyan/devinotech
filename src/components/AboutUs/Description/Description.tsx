@@ -1,5 +1,5 @@
-import TeamImage from "../TeamImage";
-import Texts from "../Texts";
+import TeamImage from "./TeamImage";
+import Texts from "./Texts";
 import "./Description.css";
 
 const Description = () => {
