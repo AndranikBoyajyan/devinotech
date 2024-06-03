@@ -1,10 +1,12 @@
-import src from "../../../../../public/images/map/2560px-World_map_with_points.svg.png";
-import './Map.css'
+import Coord from "./Coord";
+import "./Map.css";
+import VectorMap from "./VectorMap";
 
 const Map = () => {
   return (
     <div className="map">
-      <img className="mapImg" src={src} alt="" />
+      <Coord />
+      <VectorMap />
     </div>
   );
 };

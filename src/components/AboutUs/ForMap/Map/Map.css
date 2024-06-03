@@ -1,8 +1,6 @@
 .map {
     width: 88.8%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+    position: relative;
 }
 
 .mapImg {
