@@ -4,25 +4,19 @@ import AchievmentsContainer from "../../containers/HomePageContainer/Achievments
 import AboutUsContainer from "../../containers/HomePageContainer/AboutUsContainer";
 import HomePageHeader from "../../containers/HomePageContainer/HomePageHeader";
 import NewsContainer from "../../containers/HomePageContainer/NewsContainer";
+import PartnersContainer from "../../containers/HomePageContainer/PartnersContainer";
+import styles from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
-    <div style={{display: 'flex', flexDirection: 'column', gap: '4vh'}}>
+    <div className={styles.container}>
       <HomePageHeader />
-      <img
-        style={{
-          width: "35%",
-          borderRadius: "20px",
-          position: "absolute",
-          top: "200px",
-          left: `${window.innerWidth - 650}px`,
-        }}
-        src={groupPhoto}
-      ></img>
+      <img src={groupPhoto}></img>
       <WorksContainer />
       <AchievmentsContainer />
       <AboutUsContainer />
       <NewsContainer />
+      <PartnersContainer />
     </div>
   );
 };

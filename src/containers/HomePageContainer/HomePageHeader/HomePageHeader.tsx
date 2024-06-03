@@ -1,33 +1,17 @@
 import { Button } from "@mui/material";
 import DigAgency from "../../../../public/images/DigAgency/DigAgency";
+import styles from "./HomePageHeader.module.css";
 
 const HomePageHeader = () => {
   return (
-    <div style={{ display: "flex", justifyContent: "space-around" }}>
-      <div style={{ display: "flex", flexDirection: "column" }}>
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            flexDirection: "column",
-            gap: 0,
-          }}
-        >
-          <div style={{ display: "flex" }}>
-            <h1
-              style={{
-                backgroundColor: "#4287f5",
-                display: "flex",
-                color: "white",
-                height: "40px",
-                margin: "16px 0px 0px 0px",
-              }}
-            >
-              Software Engineering
-            </h1>
-            <h1 style={{ margin: "16px 0px 0px 0px" }}>Product</h1>
+    <div className={styles.container}>
+      <div className={styles.mainLeftContainer}>
+        <div className={styles.mainLeft}>
+          <div className={styles.blueLine}>
+            <h1>Software Engineering</h1>
+            <h1>Product</h1>
           </div>
-          <h1 style={{ margin: "0px 0px 16px 0px" }}>
+          <h1 className={styles.lastLine}>
             Development Services, Design & Consulting
           </h1>
         </div>

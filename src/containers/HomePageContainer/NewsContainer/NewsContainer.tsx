@@ -1,35 +1,35 @@
 import { Button } from "@mui/material";
 import NewsCard from "../../../components/NewsCard";
+import { useNavigate } from "react-router";
+import styles from "./NewsContainer.module.css";
 
 const NewsContainer = () => {
+  const navigate = useNavigate();
+  const handleOnClick = () => {
+    navigate("/news");
+  };
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: 'center',
-        gap: '5vh'
-      }}
-    >
-      <div style={{fontSize: '30px'}}>News</div>
-      <div style={{display: 'flex',justifyContent: 'space-around' , gap: '5vw'}}>
+    <div className={styles.container}>
+      <div className={styles.title}>News</div>
+      <div className={styles.main}>
         <NewsCard />
         <NewsCard />
         <NewsCard />
       </div>
       <Button
-          variant="text"
-          color="inherit"
-          sx={{
-            textTransform: "none",
-            border: "1px solid black",
-            borderRadius: "50px",
-            padding: "8px 32px",
-            width: "8vw",
-          }}
-        >
-          All news {">"}
-        </Button>
+        variant="text"
+        color="inherit"
+        onClick={handleOnClick}
+        sx={{
+          textTransform: "none",
+          border: "1px solid black",
+          borderRadius: "50px",
+          padding: "8px 32px",
+          width: "8vw",
+        }}
+      >
+        All news {">"}
+      </Button>
     </div>
   );
 };

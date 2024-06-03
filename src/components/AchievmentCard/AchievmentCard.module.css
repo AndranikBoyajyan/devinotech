@@ -1,0 +1,15 @@
+.container {
+ border-radius: 28px;
+ background-color: #FFFFFF;
+ display: flex;
+ flex-direction: column;
+ align-items: baseline;
+ width: 20vw;
+ justify-content: center;
+ padding: 0px 15px;
+ gap: 3vh;
+}
+
+.divColor {
+    color: #667085;
+}
