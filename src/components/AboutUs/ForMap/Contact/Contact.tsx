@@ -1,5 +1,7 @@
 const Contact = () => {
-  return <div>Contact</div>;
+  return <div>
+    <button></button><button></button><button></button><button></button>
+  </div>;
 };
 
 export default Contact;
