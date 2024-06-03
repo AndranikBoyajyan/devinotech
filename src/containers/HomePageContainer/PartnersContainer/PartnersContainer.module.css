@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vh;
+    gap: 3vh;
+}
+
+.large {
+    font-size: x-large;
+    width: 20%;
+}
+
+.small {
+    font-size: small;
+    color: #667085;
+    width: 25%;
+}

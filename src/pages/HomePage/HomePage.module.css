@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.container > img {
+    width: 35%;
+    border-radius: 20px;
+    position: absolute;
+    top: 35%;
+    left: 65%;
+}

@@ -1,16 +1,9 @@
 import AchievmentCard from "../../../components/AchievmentCard";
+import styles from "./AchievmentsContainer.module.css";
 
 const AchievmentsContainer = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        margin: "25px 0px",
-        height: "40vh",
-        justifyContent: "center",
-        gap: "2vw",
-      }}
-    >
+    <div className={styles.container}>
       <AchievmentCard title="Brand Idenity" />
       <AchievmentCard title="Technology" />
       <AchievmentCard title="UX/UI Design" />

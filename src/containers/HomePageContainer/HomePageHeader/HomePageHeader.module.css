@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainLeftContainer {
+    display: flex;
+    flex-direction: column; 
+}
+
+.mainLeft {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.blueLine {
+    display: flex;
+}
+
+.blueLine > h1  {
+    background-color: #4287f5;
+    display: flex;
+    color: white;
+    height: 40px;
+    margin: 16px 0px 0px 0px;
+}
+
+.lastLine {
+    margin: 0px 0px 16px 0px;
+}
