@@ -1,6 +1,6 @@
 import FooterContainer from "./containers/FooterContainer";
 import HeaderContainer from "./containers/HeaderContainer";
-import './App.css'
+import "./App.css";
 import { Route, Routes } from "react-router";
 import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
@@ -10,10 +10,9 @@ import ResourcesPage from "./pages/ResourcesPage";
 import PartnersPage from "./pages/PartnersPage";
 import ContactsPage from "./pages/ContactsPage";
 
-
 function App() {
   return (
-    <div className="font-face-ub">
+    <div className="app">
       <HeaderContainer />
       <Routes>
         <Route index element={<HomePage />} />
@@ -30,4 +29,3 @@ function App() {
 }
 
 export default App;
-

@@ -19,10 +19,10 @@ const AchievmentCard: FC<IProps> = ({ title }) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "baseline",
-        width: '20vw',
-        justifyContent: 'center',
-        padding: '0px 15px',
-        gap: '3vh'
+        width: "20vw",
+        justifyContent: "center",
+        padding: "0px 15px",
+        gap: "3vh",
       }}
     >
       {title === "Brand Idenity" ? (
@@ -33,7 +33,7 @@ const AchievmentCard: FC<IProps> = ({ title }) => {
         <DesignIcon />
       )}
       <div>{title}</div>
-      <div style={{color: '#667085'}}>{description}</div>
+      <div style={{ color: "#667085" }}>{description}</div>
     </div>
   );
 };

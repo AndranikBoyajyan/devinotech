@@ -1,5 +1,5 @@
-import Description from "../../../components/AboutUs/Description/Description";
-import Skills from "../../../components/AboutUs/Skills";
+import Description from "../../../components/AboutUs/ForDescriptions/Description/Description";
+import Skills from "../../../components/AboutUs/ForDescriptions/Skills";
 import "./DescriptionContainer.css";
 
 const DescriptionContainer = () => {

@@ -1,6 +1,6 @@
 import { FC } from "react";
-import SelectIconComponent from "../SelectIcon/SelectIcon";
 import "./Advantages.css";
+import SelectIconComponent from "../SelectIcon/SelectIcon";
 
 interface IAdvantagesProps {
   text: string;
@@ -9,7 +9,7 @@ interface IAdvantagesProps {
 const Advantages: FC<IAdvantagesProps> = ({ text }) => {
   return (
     <div className="advantage">
-      <SelectIconComponent /> <h3 className="advantageText">{text} </h3>
+      <SelectIconComponent /> <h3 className="advantageText"> {text} </h3>
     </div>
   );
 };

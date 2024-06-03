@@ -1,4 +1,4 @@
-import SelectIcon from "../../../../../public/images/Icons/SelectIcon";
+import SelectIcon from "../../../../../../public/images/Achievments/Icons";
 
 function SelectIconComponent() {
   return (

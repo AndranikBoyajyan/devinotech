@@ -8,3 +8,8 @@
 body {
   background-color: #F6FAFE;
 }
+
+#root {
+  display: flex;
+  justify-content: center;
+}

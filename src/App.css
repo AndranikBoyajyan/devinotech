@@ -1,6 +1,12 @@
-.font-face-ub {
+.app {
     font-family: "Ubuntu";
+    width: 75%;
 }
+
 body {
-    margin: 0
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
